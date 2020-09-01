@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>As the index starts from '0'.</p>
+
+<button onclick="myFunction()">Words</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var str = "Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript";
+  var arr = str.split(" ");
+  document.getElementById("demo").innerHTML = arr[4]+"</br>"+arr[6]+"</br>"+arr[9]+"</br>";
+}
+</script>
+
+</body>
+</html>
+
+
