@@ -1,0 +1,44 @@
+<button type="button" class="btn btn-primary pull-right" id="hide"> presss </button>
+<!-- Above button is used to click for hide and show the div -->
+<!-- Use Id in button to call the script -->
+
+<!-- Start Div -->
+<div id="dismiss_order"> 
+<table class="table table-bordered">
+  <thead>
+      <tr><th scope="col"> Sr. No. </th>
+      <th scope="col"> Name </th>
+      <th scope="col">College </th>
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+     <th scope="row"> 1</th> 
+     <td> Sudeepthi </td>
+     <td> Vignan</td>
+    </tr>
+    
+    <tr><th scope="row">2 </th> 
+     <td>Sai </td>
+     <td> Nit Raipur</td>
+    </tr>
+    </tbody>
+</table>
+</div>
+<!-- End Div -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Call the above path to use the script -->
+
+<!-- Start Script -->
+<script type="text/javascript">
+	 $(document).ready(function(){
+    $('#hide').click(function() {
+      $('#dismiss_order').toggle("slide"); // toggle is used to hide/show the section
+    });
+});
+
+</script>
+<!-- End Script -->
