@@ -1,0 +1,14 @@
+Step 1:
+First button,There is a button which is consists of dropdown(English and hindi languages) if we select the any of the language then it displays buttons which consists 
+of words of respective languages.
+
+Step 2:
+Click on the buttons it will arrange as the sequence after completion of the words it forms a sentence
+
+Then it displays again three buttons:
+1.Reform the sentence:it agains go the step2.
+2.Check the correctness of the sentence:it displays whether the sentence formed is correct or not.if it displays wrong answer it displays another button get correct answer
+this displays all the correct answer.
+
+ 
+ 
